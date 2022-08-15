@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EKart">
         <activity
+            android:name=".activities.CheckoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.OTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddressActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.ProductDetailsActivity"
             android:exported="false" />
         <activity
